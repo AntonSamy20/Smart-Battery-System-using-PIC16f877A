@@ -123,6 +123,7 @@ else if(temp >= 40 && temp < 45) PWM2_Set_Duty(204);
 else if(temp >= 35 && temp < 40) PWM2_Set_Duty(153);
 else if(temp >= 30 && temp < 35) PWM2_Set_Duty(102);
 else if(temp >= 25 && temp < 30) PWM2_Set_Duty(51);
+else PWM2_Set_Duty(0);
 
 }// while
 }// main
